@@ -1,0 +1,397 @@
+@import url('https://fonts.googleapis.com/css2?family=Golos+Text:wght@400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Golos+Text:wght@400..900&display=swap');
+
+body {
+    color: #1E1E1E;
+    background-color: #F6F1EB;
+    font-family: "EB Garamond", serif;
+    font-style: normal;
+    margin: 0;
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+}
+
+header ul {
+    display: flex;
+    padding-left: 0;
+}
+
+header li {
+    list-style: none;
+}
+
+a {
+    color: #1E1E1E;
+    text-decoration: none;
+    font-size: 1vw;
+    font-family: "Golos Text", sans-serif;
+}
+
+header ul:first-of-type li {
+    margin-left: 5vw;
+}
+
+header ul:last-of-type li {
+    margin-right: 5vw;
+}
+
+h1 {
+    font-size: 2.5vw;
+    padding: 0;
+    margin: 0;
+
+    font-family: "EB Garamond", serif;
+    font-weight: 800;
+    font-style: normal;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row wrap;
+    height: 90vh;
+    padding: 0 1vw;
+    margin: 0;
+    margin-bottom: 4vw;
+}
+
+.hero div {
+    width: 40vw;
+    margin: 0;
+}
+
+div img {
+    width: 100%;
+}
+
+h2 {
+    font-size: 8vw;
+    font-weight: 300;
+    text-transform: uppercase;
+    
+    margin: 0;
+    padding: 0;
+}
+
+.collectionHome {
+    display: flex;
+    flex-flow: column;
+    align-items: flex-end;
+
+    height: 90vh;
+    color: #F6F1EB;
+    padding: 4vw;
+
+    background-image: url("/images/collectionAchtergrond.png");
+    background-position: right bottom;
+    background-size: 130vw;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.collectionHome section {
+    display: flex;
+    flex-flow: column;
+    margin: 4vw 0;
+    width: 20vw;
+    text-align: end;
+}
+
+h3 {
+    font-size: 2vw;
+    margin: 0;
+}
+
+p {
+    font-size: 1.2vw;
+}
+
+.collectionHome p:last-of-type {
+    font-style: italic;
+}
+
+.clothingSection {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    height: 100vh;
+}
+
+.clothingSection div {
+    background-image: url(/images/clothing02.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.clothingSection div:first-of-type {
+    background-image: url(/images/clothing01.png);
+}
+
+.clothingSection div:last-of-type {
+    background-image: url(/images/clothing03.png);
+    background-position: center right;
+}
+
+.banner {
+    height: 15vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #6C7A5A;
+}
+
+.banner h2 {
+    font-size: 3vw;
+    color: #F6F1EB;
+    
+    margin: 0;
+    height: fit-content;
+}
+
+.informationSection {
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row;
+    height: 95vh;
+    padding: 2vw 5vw;
+}
+
+.informationSection section {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    width: 50%;
+}
+
+.informationSection h2 {
+    font-weight: 500;
+    font-size: 2vw;
+    text-transform: none;
+}
+
+.informationSection div {
+    display: flex;
+    justify-content: center;
+    width: 45%;
+    padding: 2vw 0 2vw 2vw;
+}
+
+.informationSection p {
+    font-size: 1.2vw;
+    width: 30vw;
+}
+
+.informationSection p:last-of-type {
+    font-style: italic;
+}
+
+.footerContent {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    height: 20vw;
+    padding: 5vw;
+}
+
+footer div {
+    display: flex;
+    align-items: center;
+}
+
+footer ul {
+    display: flex;
+    flex-flow: column;
+    width: fit-content;
+    height: fit-content;
+}
+
+footer p {
+    font-family: "Golos Text", sans-serif;
+    margin: 1vw;
+    margin-left: 0;
+}
+
+footer li {
+    margin-bottom: 1vw;
+    list-style: none;
+}
+
+footer a {
+    font-size: 1.2vw;
+}
+
+.footerContent section {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+}
+
+footer > section {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    height: 10vh;
+    padding: 0 5vw;
+}
+
+footer > section ul {
+    display: flex;
+    flex-flow: row;
+    margin: 0;
+}
+
+footer > section li {
+    margin: 0;
+    padding-left: 0;
+    width: fit-content;
+    list-style: none;
+    padding-left: 2vw;
+}
+
+footer > section a {
+    margin: 0;
+    text-decoration: underline;
+}
+
+footer > section p {
+    margin: 0;
+}
+
+/* About Us Section */
+
+.aboutInformation {
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row;
+    height: 90vh;
+    padding: 2vw 3.5vw;
+    padding-top: 0;
+}
+
+.aboutInformation section {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    width: 50%;
+}
+
+.aboutInformation h2 {
+    font-weight: 500;
+    font-size: 2vw;
+    text-transform: none;
+}
+
+.aboutInformation div {
+    display: flex;
+    justify-content: center;
+    width: 40vw;
+    padding: 0 2vw 2vw;
+}
+
+.aboutInformation p {
+    font-size: 1.2vw;
+    width: 40vw;
+    text-align: justify;
+}
+
+/* Contact Page */
+
+.contactInformation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    height: 80vh;
+}
+
+.contactInformation p {
+    font-size: 2vw;
+    font-family: "Golos Text", sans-serif;
+    margin: 1.2vw;
+}
+
+/* blog Section */
+
+article {
+    display: flex;
+    flex-flow: row;
+    padding: 4vw;
+}
+
+article section {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    margin-left: 4vw;
+}
+article h2 {
+    font-size: 2vw;
+    font-weight: 600;
+    text-transform: none;
+}
+
+article p {
+    font-size: 1.4vw;
+}
+
+article p:last-of-type {
+    font-style: italic;
+}
+
+article img {
+    background-color: #1E1E1E;
+    width: 100vw;
+}
+
+/* collection Page */
+
+.collectionClothing {
+    background-color: #1E1E1E;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    height: 90vh;
+}
+
+.collectionClothing div {
+    background-image: url(/images/clothing02.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.collectionClothing div:first-of-type {
+    background-image: url(/images/clothing01.png);
+}
+
+.collectionClothing div:last-of-type {
+    background-image: url(/images/clothing03.png);
+    background-position: center right; 
+}
+
+/* Shop Page */
+
+.itemsClothing {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0 3.5vw;
+}
+
+.itemsClothing > div {
+    background-color: #1E1E1E;
+    margin: 4vw 2vw;
+    margin-top: 0;
+    width: 26.5vw;
+    height: 26.5vw;
+
+    background-image: url(/images/blog01.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
