@@ -88,7 +88,7 @@ h2 {
     color: #F6F1EB;
     padding: 4vw;
 
-    background-image: url("./images/collectionAchtergrond.png");
+    background-image: url("../images/collectionAchtergrond.png");
     background-position: right bottom;
     background-size: 130vw;
     background-repeat: no-repeat;
@@ -123,17 +123,17 @@ p {
 }
 
 .clothingSection div {
-    background-image: url("./images/clothing02.png");
+    background-image: url("../images/clothing02.png");
     background-repeat: no-repeat;
     background-size: 100%;
 }
 
 .clothingSection div:first-of-type {
-    background-image: url("./images/clothing01.png");
+    background-image: url("../images/clothing01.png");
 }
 
 .clothingSection div:last-of-type {
-    background-image: url("./images/clothing03.png");
+    background-image: url("../images/clothing03.png");
     background-position: center right;
 }
 
@@ -360,17 +360,17 @@ article img {
 }
 
 .collectionClothing div {
-    background-image: url("./images/clothing02.png");
+    background-image: url("../images/clothing02.png");
     background-repeat: no-repeat;
     background-size: 100%;
 }
 
 .collectionClothing div:first-of-type {
-    background-image: url("./images/clothing01.png");
+    background-image: url("../images/clothing01.png");
 }
 
 .collectionClothing div:last-of-type {
-    background-image: url("./images/clothing03.png");
+    background-image: url("../images/clothing03.png");
     background-position: center right; 
 }
 
@@ -391,7 +391,7 @@ article img {
     width: 26.5vw;
     height: 26.5vw;
 
-    background-image: url("./images/blog01.png");
+    background-image: url("../images/blog01.png");
     background-repeat: no-repeat;
     background-size: contain;
 }
